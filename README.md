@@ -49,18 +49,21 @@ pip install -r requirements.txt
 
 ## Running the Application
 
-1. Ensure the MAESTRO dataset is available in the parent directory:
+1. **Verify dataset location**: Ensure the MAESTRO dataset is in the root folder:
    ```
-   ../maestro-v3.0.0-midi/maestro-v3.0.0/
+   d:/Codes/Training/Project 1/PMMG/maestro-v3.0.0-midi/maestro-v3.0.0/
    ```
 
-2. Run the Streamlit app:
+2. **Run the Streamlit app**:
 
 ```bash
-streamlit run app.py
+cd music_generator_app
+streamlit run simple_app.py
 ```
 
-3. Open your browser and navigate to the URL shown in the terminal (typically `http://localhost:8501`)
+3. **Access the application**: Open your browser and navigate to the URL shown in the terminal (typically `http://localhost:8501`)
+
+**Note**: The app will automatically detect if the dataset is missing and show a warning message with instructions.
 
 ## Usage
 
@@ -80,7 +83,9 @@ streamlit run app.py
 
 ```
 music_generator_app/
-├── app.py              # Main Streamlit application
+├── app.py              # Advanced Streamlit application with LSTM model
+├── simple_app.py       # Simplified version with working Markov model
+├── model.py            # Music generation models (Simple Markov and LSTM)
 ├── requirements.txt    # Python dependencies
 └── README.md          # This file
 ```
