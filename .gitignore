@@ -1,0 +1,16 @@
+.venv/
+maestro-v3.0.0-midi/
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.vscode/
+output/
+*.log
+*.tmp
+*.bak
+*.swp
+.env
+.env.*
+.ipynb_checkpoints/
+.mypy_cache/
