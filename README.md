@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 ```bash
 cd music_generator_app
-streamlit run simple_app.py
+streamlit run music_app.py
 ```
 
 3. **Access the application**: Open your browser and navigate to the URL shown in the terminal (typically `http://localhost:8501`)
@@ -84,7 +84,7 @@ streamlit run simple_app.py
 ```
 music_generator_app/
 ├── app.py              # Advanced Streamlit application with LSTM model
-├── simple_app.py       # Simplified version with working Markov model
+├── music_app.py       # Simplified version with working Markov model
 ├── model.py            # Music generation models (Simple Markov and LSTM)
 ├── requirements.txt    # Python dependencies
 └── README.md          # This file
