@@ -32,7 +32,7 @@ A Streamlit application for generating music using AI models trained on the MAES
    - Move the `maestro-v3.0.0-midi` folder to the root directory of this project
    - The final structure should be:
      ```
-     d:/Codes/Training/Project 1/PMMG/
+     dir:/../../../PMMG/
      ├── maestro-v3.0.0-midi/
      ├── music_generator_app/
      └── README.md
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 1. **Verify dataset location**: Ensure the MAESTRO dataset is in the root folder:
    ```
-   d:/Codes/Training/Project 1/PMMG/maestro-v3.0.0-midi/maestro-v3.0.0/
+   dir:/../../../PMMG/maestro-v3.0.0-midi/maestro-v3.0.0/
    ```
 
 2. **Run the Streamlit app**:
