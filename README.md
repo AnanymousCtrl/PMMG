@@ -13,7 +13,30 @@ A Streamlit application for generating music using AI models trained on the MAES
 ## Prerequisites
 
 - Python 3.8+
-- MAESTRO dataset (should be located in the parent directory as `maestro-v3.0.0-midi`)
+- MAESTRO dataset (must be downloaded manually and placed in the root folder)
+
+## Downloading the MAESTRO Dataset
+
+**Important**: You need to download the MAESTRO dataset manually and place it in the correct location:
+
+1. **Download the dataset** from the official source:
+   - Visit: https://magenta.tensorflow.org/datasets/maestro
+   - Download the "maestro-v3.0.0-midi.zip" file
+   - Alternatively, use this direct link if available: [MAESTRO Dataset](https://storage.googleapis.com/magentadata/datasets/maestro/v3.0.0/maestro-v3.0.0-midi.zip)
+
+2. **Extract the dataset**:
+   - Unzip the downloaded file
+   - You should get a folder named `maestro-v3.0.0-midi`
+
+3. **Place the dataset in the correct location**:
+   - Move the `maestro-v3.0.0-midi` folder to the root directory of this project
+   - The final structure should be:
+     ```
+     d:/Codes/Training/Project 1/PMMG/
+     ├── maestro-v3.0.0-midi/
+     ├── music_generator_app/
+     └── README.md
+     ```
 
 ## Installation
 
