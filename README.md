@@ -83,11 +83,9 @@ streamlit run music_app.py
 
 ```
 music_generator_app/
-├── app.py              # Advanced Streamlit application with LSTM model
 ├── music_app.py       # Simplified version with working Markov model
-├── model.py            # Music generation models (Simple Markov and LSTM)
 ├── requirements.txt    # Python dependencies
-└── README.md          # This file
+README.md          # This file
 ```
 
 ## Dataset Information
