@@ -9,13 +9,13 @@ import base64
 
 # Set page config
 st.set_page_config(
-    page_title="Simple Music Generator",
+    page_title="Meditation Music Generator",
     page_icon="🎵",
     layout="wide"
 )
 
 # Title and description
-st.title("🎵 Simple Music Generator")
+st.title("🎵 Meditation Music Generator")
 st.markdown("""
 This app generates simple music compositions using the MAESTRO dataset as inspiration.
 You can generate musical sequences and download them as MIDI files.
@@ -41,8 +41,8 @@ def analyze_maestro_dataset():
         'file_paths': midi_files[:10]  # First 10 files for demo
     }
 
-# Simple music generator using Markov-like transitions
-class SimpleMusicGenerator:
+# music generator using Markov-like transitions
+class MediMusicGenerator:
     def __init__(self):
         self.common_notes = [60, 62, 64, 65, 67, 69, 71, 72]  # C Major scale
         self.transitions = {
@@ -193,7 +193,7 @@ def get_wav_audio_player(wav_bytes):
 
 # Main app logic
 def main():
-    generator = SimpleMusicGenerator()
+    generator = MediMusicGenerator()
     
     # Dataset analysis
     dataset_info = analyze_maestro_dataset()
