@@ -24,7 +24,7 @@ You can generate musical sequences and download them as MIDI files.
 # Function to load and analyze MAESTRO dataset
 def analyze_maestro_dataset():
     """Analyze the MAESTRO dataset and return statistics"""
-    dataset_path = "../maestro-v3.0.0-midi/maestro-v3.0.0"
+    dataset_path = "../maestro/maestro-v3.0.0"
     
     if not os.path.exists(dataset_path):
         st.warning("MAESTRO dataset not found. Please ensure the dataset is in the correct location.")
